@@ -83,3 +83,70 @@
 
 //////////////////////////////////////////////////////////////////////////////////
 // 6
+
+// function validarEmail(email, callbackSucesso, callbackErro) {
+//   if (email.includes("@")){
+//     callbackSucesso(email);
+//   } else {
+//     callbackErro(email);
+//   };
+// };
+
+// function aoSucesso(msg) {
+//   console.log("✅ SUCESSO: " + msg);
+// };
+// function aoErro(msg) {
+//   console.log("❌ ERRO: " + msg);
+// };
+
+// validarEmail("dev@javascript.com", aoSucesso, aoErro);
+// validarEmail("emailsemarroba.com", aoSucesso, aoErro);
+
+
+//////////////////////////////////////////////////////////////////////////////////
+// 7
+
+// const usuarios = [
+//   { id: 1, nome: "Alice" },
+//   { id: 2, nome: "Bruno" },
+//   { id: 3, nome: "Carla" }
+// ];
+
+// const usuarioEncontrado = usuarios.find(u => u.id == 2);
+
+// console.log(usuarioEncontrado);
+
+//////////////////////////////////////////////////////////////////////////////////
+// 8
+
+// const produtos = [
+//   { item: "Teclado", preco: 150 },
+//   { item: "Mouse", preco: 80 },
+//   { item: "Monitor", preco: 900 }
+// ];
+
+// produtos.sort((a, b) => a.preco - b.preco);
+
+// console.log(produtos);
+
+//////////////////////////////////////////////////////////////////////////////////
+// 9
+
+// const carrinho = [25, 15, 60, 100];
+
+// const total = carrinho.reduce((acc, item) => acc + item, 0);
+
+// console.log(`Total do carrinho: R$${total}`);
+
+//////////////////////////////////////////////////////////////////////////////////
+// 10
+
+// function emCaixaAlta(texto) {
+//   return `${texto.toUpperCase()}!!!`;
+// }
+
+// function formatarTexto(frase, callbackFormatador) {
+//   return callbackFormatador(frase);
+// }
+
+// console.log(formatarTexto("aprender callbacks e divertido", emCaixaAlta));
